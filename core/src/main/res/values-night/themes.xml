@@ -64,9 +64,4 @@
         <item name="android:textColor">@color/text_color</item>
     </style>
 
-    <style name="TextView.CustomFontBold">
-        <item name="android:fontFamily">@font/poppins_bold</item>
-        <item name="android:textColor">@color/text_color</item>
-    </style>
-
 </resources>

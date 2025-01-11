@@ -48,16 +48,6 @@
         <item name="colorSurfaceContainerHighest">@color/md_theme_surfaceContainerHighest</item>
     </style>
 
-    <style name="TextAppearanceActive">
-        <item name="android:fontFamily">@font/poppins_medium</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
-    <style name="TextAppearanceInactive">
-        <item name="android:fontFamily">@font/poppins_regular</item>
-        <item name="android:textSize">12sp</item>
-    </style>
-
     <style name="TitleTextAppearance">
         <item name="android:fontFamily">@font/poppins_bold</item>
         <item name="android:textSize">18sp</item>
@@ -73,11 +63,6 @@
 
     <style name="TextView.CustomFontMedium">
         <item name="android:fontFamily">@font/poppins_medium</item>
-        <item name="android:textColor">@color/text_color</item>
-    </style>
-
-    <style name="TextView.CustomFontBold">
-        <item name="android:fontFamily">@font/poppins_bold</item>
         <item name="android:textColor">@color/text_color</item>
     </style>
 
