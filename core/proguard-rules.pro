@@ -19,3 +19,49 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# This is generated automatically by the Android Gradle plugin.
+-dontwarn java.lang.invoke.StringConcatFactory
+
+-keep class com.kurniawan.capstoneproject.core.data.source.local.** { *; }
+-keepclassmembers class com.kurniawan.capstoneproject.core.data.source.local.** { *; }
+
+-keep class com.kurniawan.capstoneproject.core.data.source.remote.response.** { *; }
+-keepclassmembers class com.kurniawan.capstoneproject.core.data.source.remote.response.** { *; }
+
+-keep class com.kurniawan.capstoneproject.core.di.** { *; }
+-keepclassmembers class com.kurniawan.capstoneproject.core.di.** { *; }
+
+-keep class com.kurniawan.capstoneproject.core.domain.usecase.** { *; }
+-keepclassmembers class com.kurniawan.capstoneproject.core.domain.usecase.** { *; }
+
+-keep class com.kurniawan.capstoneproject.core.ui.** { *; }
+-keepclassmembers class com.kurniawan.capstoneproject.core.ui.** { *; }
+
+-keep class com.kurniawan.capstoneproject.core.data.Resource$* { *; }
+
+-keepattributes Signature
+
+-keepclassmembers class com.kurniawan.capstoneproject.core.data.Resource$* {
+    <init>(...);
+    java.lang.Object getData();
+}
+
+-keepclassmembers class ** {
+    *** get*(...);
+    *** set*(...);
+}
+
+-keepclassmembers class ** {
+    public <init>(...);
+}
+
+-keep class com.google.gson.** { *; }
+
+# Keep DataBinding classes
+-keep class **.databinding.** { *; }
+-keep class **.BR { *; }
+
+# Keep all Kotlin extension functions
+-keep class kotlin.** { *; }
+-keep class **.FormatterKt { *; }
