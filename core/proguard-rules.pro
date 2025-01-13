@@ -66,6 +66,6 @@
 -keep class kotlin.** { *; }
 -keep class **.FormatterKt { *; }
 
--keep class com.kurniawan.capstoneproject.core.domain.model.News { *; }
--keep interface com.kurniawan.capstoneproject.core.domain.repository.INewsRepository
+-keep class com.kurniawan.capstoneproject.core.domain.** { *; }
+
 
